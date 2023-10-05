@@ -13,6 +13,8 @@ h2,h3,h4,p{
 
 body{
     background-color: rgb(226, 224, 224);
+    align-items: center;
+    margin: 200px;
 }
 .container{
     background-color: white;
