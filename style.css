@@ -1,0 +1,47 @@
+html{
+    box-sizing: border-box;
+    font-family: Outfit;
+    font-size: 15px;
+    font-weight: 400;
+}
+h2,h3,h4,p{
+    margin: 0;
+}
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+body{
+    background-color: rgb(226, 224, 224);
+}
+.container{
+    background-color: white;
+    height: 450px;
+    width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+    align-items: center;
+}
+#qr-code img{
+    height: 277px;
+    border-radius: 10px;
+}
+#text-content{
+    align-items: center;
+}
+#bold-content{
+    width: 100%;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 10px;
+    padding: 0;
+}
+#para{
+    align-items: center;
+    color: gray;
+    opacity: 0.7;
+    font-size: 0.9rem;
+    margin-top: 10px;
+    text-align: center;
+    padding: 5px;
+}
